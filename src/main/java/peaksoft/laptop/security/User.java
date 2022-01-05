@@ -21,6 +21,7 @@ public class User implements UserDetails {
     private String password;
     private Role role;
     //this is comment
+    //this is too comment
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return Collections.singleton(role);
