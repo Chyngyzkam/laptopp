@@ -20,7 +20,7 @@ public class User implements UserDetails {
     private String username;
     private String password;
     private Role role;
-
+    //this is comment
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return Collections.singleton(role);
